@@ -1,0 +1,13 @@
+<odoo>
+     <data>
+         <!-- Action -->
+         <record model="ir.actions.act_window" id="machine_type_action">
+             <field name="name">Machine Type</field>
+             <field name="res_model">machine.type</field>
+             <field name="view_mode">tree,form,kanban</field>
+         </record>
+
+         <!-- Menu -->
+         <menuitem name="Machine Type" id="machine_type_menu_root" action="machine_type_action"/>
+        </data>
+</odoo>
